@@ -1,0 +1,23 @@
+{
+  "name": "node-http-serv",
+  "version": "0.1.0",
+  "description": "A flexible http server",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spike008t/node-http-serv.git"
+  },
+  "keywords": [
+    "http",
+    "server"
+  ],
+  "author": "Tieu-Philippe KHIM <khim.tieu.philippe@gmail.com>",
+  "license": "AGPL v2",
+  "bugs": {
+    "url": "https://github.com/spike008t/node-http-serv/issues"
+  },
+  "homepage": "https://github.com/spike008t/node-http-serv"
+}
