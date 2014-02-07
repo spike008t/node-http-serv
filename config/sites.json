@@ -1,0 +1,25 @@
+{
+	"unix-sock.example.com": {
+		"type": "proxy",
+		"proxy-type": "unix",
+		"uri": "unix://tmp/sock-test"
+	},
+	"http-sock.example.com": {
+		"type": "proxy",
+		"proxy-type": "http",
+		"uri": "http://www.free.fr"
+	},
+	"ssh-tunnel.example.com": {
+		"type": "proxy",
+		"proxy-type": "ssh",
+		"ssh-server-host": "ssh_host",
+		"ssh-server-port": 22,
+		"ssh-key": "PATH_KEY",
+		"ssh-username": "username",
+		"ssh-password": "password"
+	},
+	"default": {
+		"type": "static",
+		"path": "www/"
+	}
+}

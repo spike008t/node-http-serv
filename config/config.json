@@ -1,0 +1,11 @@
+{
+	"vhosts": {
+		"example.com": {
+			"type": "proxy"
+		},
+		"default": {
+			"type": "static",
+			"path": "www/"
+		}
+	}
+}
