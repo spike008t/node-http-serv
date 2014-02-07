@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/spike008t/node-http-serv/issues"
   },
-  "homepage": "https://github.com/spike008t/node-http-serv"
+  "homepage": "https://github.com/spike008t/node-http-serv",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "coffee-script": "~1.7.1"
+  }
 }
